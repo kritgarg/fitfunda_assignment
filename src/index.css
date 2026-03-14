@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "react-circular-progressbar/dist/styles.css";
+
+html, body {
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #FDF9F1 0%, #F5E6CC 100%);
+  color: #1A1A1A;
+  min-height: 100vh;
+}
+
+.CircularProgressbar-path {
+  stroke: #FACC15 !important;
+}
+.CircularProgressbar-trail {
+  stroke: #EEEEEE !important;
+}
+.CircularProgressbar-text {
+  fill: #1A1A1A !important;
+  font-weight: 300 !important;
+  font-size: 20px !important;
+}
