@@ -1,27 +1,26 @@
 @import "tailwindcss";
 @import "react-circular-progressbar/dist/styles.css";
 
-html, body {
-  overscroll-behavior: none;
-}
+
 
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #FDF9F1 0%, #F5E6CC 100%);
-  color: #1A1A1A;
+  /* Deep gunmetal sport theme from image */
+  background-color: #1A1C23;
+  color: #FFFFFF;
   min-height: 100vh;
 }
 
 .CircularProgressbar-path {
-  stroke: #FACC15 !important;
+  stroke: #FA6011 !important; /* Vibrant Orange */
 }
 .CircularProgressbar-trail {
-  stroke: #EEEEEE !important;
+  stroke: rgba(255, 255, 255, 0.05) !important;
 }
 .CircularProgressbar-text {
-  fill: #1A1A1A !important;
-  font-weight: 300 !important;
-  font-size: 20px !important;
+  fill: #FFFFFF !important;
+  font-weight: 700 !important;
+  font-size: 22px !important;
 }
